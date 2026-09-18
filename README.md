@@ -112,6 +112,10 @@ Lonceny KABA — Étudiant en L3 Physique à l'Université de Tours.
 
 Projet réalisé dans le cadre de mon apprentissage de Python et de la physique numérique.
 
+## Évolution du projet
+
+Ce projet sera progressivement amélioré.
+
 
 
 
