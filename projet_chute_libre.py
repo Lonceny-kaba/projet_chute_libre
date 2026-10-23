@@ -222,7 +222,7 @@ plt.show()
 plt.figure()
 
 plt.plot(t_numerique_2, v_numerique_2, label = "V numérique avec frottements")
-plt.axhline(-Vlim,color = "red", linestyle = "--", label = "Vitesse limite théorique")
+plt.axhline(-Vlim,color = "red", linestyle = "--", label = "Vitesse limite ")
 plt.xlabel("Temps (s)")
 plt.ylabel("vitesse V (m/s)")
 
@@ -243,16 +243,14 @@ plt.show()
 #Temps d'impact avec frottements = 6.7199543410617295 s
 #Vitesse d'impact avec frottements = -18.430854658407075 m/s
 
-#Dans le vide le  système va plus vite donc mets moins de temps contrairement à s'il y'a frottement de l'air
-# où il va moins vite et mets plus de temps.
+#Dans le vide le  système va plus vite donc mets moins de temps tandis qu'avec frottement de l'air il va moins vite et mets plus de temps.
 
 #Partie 3: Calcul de la vitesse limite théorique
 
 
 #la vitisse limite théorique = - 18.460035344133107 m/s
 
-# On remarque bien graphiquement que la vitesse numérique se rapproche de -18.4... or la vitisse limite = - 18.460035344133107 m/s
-#par conséquent elle se rapproche bel et bien à sa vitesse limite.
+# On remarque bien graphiquement que la vitesse numérique se rapproche de -18.4... or la vitisse limite = - 18.460035344133107 m/spar conséquent elle se rapproche bel et bien à sa vitesse limite.
 
 
 
@@ -324,7 +322,7 @@ plt.plot(solution_m2.t,v_m2 , label = "Vitesse pour m = 0.10 kg")
 
 plt.plot(solution_m3.t,v_m3 , label = "Vitesse pour m = 0.5 kg")
 
-plt.axhline(-Vlim, color = "blue", linestyle = "--", label = "Vitesse théorique")
+plt.axhline(-Vlim, color = "blue", linestyle = "--", label = "Vitesse Limite")
 
 plt.xlabel("Temps (s)")
 
@@ -340,12 +338,10 @@ plt.savefig("Vitesses_des_masses.png", dpi = 300, bbox_inches ="tight")
 
 plt.show()
 
-#Influence de masse sur le système: Plus la masse est grande plus le système descend vite, car sa vitesse est plus grande en valeur absolue
-#Logiquement il met moins de temps pour descendre. 
+#Influence de masse sur le système: Plus la masse est grande plus le système descend  vite, car sa vitesse est plus grande en valeur absolue Logiquement il met moins de temps pour descendre. 
 
 
-#Difficultés rencontrées: j'ai vraiment du mal de montrer graphiquement que la vitesse numérique 
-#se rapproche de la vitesse limite et de représenter gahiquement les vitesses des trois masses.
+#Difficultés rencontrées:  montrer graphiquement que la vitesse numérique se rapproche de la vitesse limite et de représenter gahiquement les vitesses des trois masses m'ont posé problème.
 
 
 
